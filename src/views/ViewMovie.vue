@@ -1,18 +1,16 @@
 <script setup>
 import Hero from '@/components/Hero.vue';
 import LatestMovie from '@/components/LatestMovie.vue';
+import MovieDetails from '@/components/MovieDetails.vue';
 import Nav from '@/components/Nav.vue'; 
-import Popular from '@/components/Popular.vue';
+
 </script>
 
 <template>
   <main>
  <Nav/>
- <!-- Your content here -->
-  <Hero/>
+ 
+ <MovieDetails/>  
 
-  <LatestMovie/>
-
-  <Popular/>
   </main>
 </template>

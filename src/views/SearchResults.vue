@@ -1,8 +1,8 @@
 <script setup>
 import Hero from '@/components/Hero.vue';
-import LatestMovie from '@/components/LatestMovie.vue';
 import Nav from '@/components/Nav.vue'; 
-import Popular from '@/components/Popular.vue';
+import SearchResult from '../components/SearchResult.vue';
+
 </script>
 
 <template>
@@ -11,8 +11,7 @@ import Popular from '@/components/Popular.vue';
  <!-- Your content here -->
   <Hero/>
 
-  <LatestMovie/>
+ <SearchResult/>
 
-  <Popular/>
   </main>
 </template>
